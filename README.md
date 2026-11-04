@@ -5,9 +5,6 @@ an MCP server, an MCP security gateway, a streaming PII-redacting LLM gateway, a
 rate-limiting model router with fallback. Everything runs locally against bundled mock
 backends; no paid APIs are needed.
 
-> **AI-assistance disclosure:** this project was built with the help of an AI coding assistant
-> (GitHub Copilot agent mode) under my direction. I reviewed the code and test results.
-
 ## Architecture
 
 ```mermaid
