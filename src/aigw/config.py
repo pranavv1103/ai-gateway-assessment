@@ -52,7 +52,7 @@ class LLMGatewaySettings:
     provider_url: str = "http://127.0.0.1:9002/v1/chat/completions"
     provider_timeout_seconds: float = 30.0
     connect_timeout_seconds: float = 3.0
-    max_pending_chars: int = 256
+    max_event_chars: int = 1_048_576
 
     @classmethod
     def from_env(cls) -> "LLMGatewaySettings":
